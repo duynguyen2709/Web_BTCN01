@@ -1,0 +1,24 @@
+body {
+    background-color: rgb(223, 223, 223);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    position: fixed;
+    top: 3%;
+    left: 25%;
+    font-weight: lighter;
+    color: #444444;
+}
+
+#headerText {
+    font-size: 55px;
+    font-style: italic;
+    font-family: 'Yellowtail', cursive;
+}
+
+#menuBar>b {
+    font-size: 12px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
