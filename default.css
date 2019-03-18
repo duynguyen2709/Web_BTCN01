@@ -11,25 +11,25 @@ body {
 }
 
 .header {
-    display:flex;
+    display: flex;
     justify-content: center;
-    margin-left:200px;
-    margin-top:40px;
+    margin-left: 200px;
+    margin-top: 40px;
     font-weight: lighter;
     color: #444444;
 }
 
 .footer {
-    display:flex;
-    flex-flow:column wrap;
+    display: flex;
+    flex-flow: column wrap;
     justify-content: flex-end;
     align-self: center;
     font-weight: lighter;
-    width:500px;
+    width: 500px;
     color: #929292;
     font-size: 14px;
-    margin-top:50px;
-    margin-left:150px;
+    margin-top: 50px;
+    margin-left: 150px;
 }
 
 #headerText {
@@ -73,11 +73,11 @@ body {
 
 #main {
     background-color: #faf9f9;
-    display:flex;
+    display: flex;
     flex-direction: column;
     align-self: center;
-    margin-left:100px;
-    margin-top:50px;
+    margin-left: 100px;
+    margin-top: 50px;
     font-weight: lighter;
     color: #444444;
     width: 850px;
@@ -104,21 +104,80 @@ body {
     background-color: #8ce246;
 }
 
-#brandNames{
+#brandNames {
     display: flex;
     flex-direction: row;
     font-size: 20px;
     color: #b6b6b6;
-    margin-top:50px;
-    margin-left:30px;
+    margin-top: 50px;
+    margin-left: 30px;
     border-top: 1px dashed #919191;
     border-bottom: 1px dashed #919191;
     background-color: #ffffff;
     padding-bottom: 30px;
-    padding-top:30px;
+    padding-top: 30px;
 }
 
-.brand{
-    margin-left:20px;
-    margin-right:20px;
+.brand {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#deal-items {
+    display: flex;
+    justify-content: stretch;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.deal-item {
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    border-right: 1px dashed #919191;
+    border-bottom: 1px dashed #919191;
+
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-right: 10px;
+    border: 1px solid #f1f1f1;
+    background-color: #ffffff;
+    padding: 10px;
+    padding-bottom: 0px;
+    height: 60%;
+    margin-left:10px;
+}
+
+.card-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+.card-discount-info {
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+    font-size: 13px;
+}
+
+.centerText {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    justify-self: center;
+}
+
+.btnSeeDeal {
+    border-radius: 8px;
+    margin-left: 25px;
+    width: 90px;
+    height: 25px;
+    background-color: #8ce246;
 }
