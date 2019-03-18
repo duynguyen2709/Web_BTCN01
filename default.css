@@ -107,6 +107,9 @@ body {
 }
 
 #buy-big-deal {
+    font-size:20px;
+    font-weight: bold;
+    color: #524b00;
     border-radius: 8px;
     margin-top:40px;
     margin-left:50px;
@@ -221,6 +224,8 @@ body {
     border-radius: 4px;
     width: 90px;
     height: 25px;
+    font-weight: lighter;
+    color: #444444;
     background-color: #e6e6e6;
     margin-bottom: 15px;
     margin-top: 15px;
