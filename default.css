@@ -81,7 +81,6 @@ body {
     font-weight: lighter;
     color: #444444;
     width: 850px;
-    height: 1500px;
     padding: 20px;
 }
 
@@ -134,9 +133,7 @@ body {
     display: flex;
     flex-direction: column;
     width: 33%;
-    border-right: 1px dashed #919191;
     border-bottom: 1px dashed #919191;
-
 }
 
 .card {
@@ -180,4 +177,11 @@ body {
     width: 90px;
     height: 25px;
     background-color: #8ce246;
+}
+
+#introduce-section {
+    display: flex;
+    justify-content: stretch;
+    margin-top: 30px;
+    margin-left: 20px;
 }
