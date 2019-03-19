@@ -28,7 +28,7 @@
             <div id="mailInfo">
                 <h5>Sign up for free to get deals directly to your mailbox</h5>
                 <input style="width: 60%;height: 25px" type="text" placeholder="Enter Your Email Address" />
-                <button style="border-radius: 4px;margin-left:20px;width: 30%;height: 25px;background-color:#839cc4">
+                <button id="btnSubcribe">
                     Subcribe Me
                 </button>
             </div>
@@ -54,7 +54,28 @@
             </div>
 
             <div id="big-deal-end-time">
-                <img id="ticket" src="./images/ticket.jpg" width="85%" height="80%"/>
+                <img id="ticket" src="./images/ticket.jpg" width="85%" height="80%" />
+                <div id="ticket-info">
+                    <b style="color: #9e9e9e;margin-bottom: 10px;margin-top:10px">This deal will end in:</b>
+                    <b id="end-time">6 days 1 hrs 52 min 51 sec</b>
+                    <b style="color: #9e9e9e;margin-top:15px;">Discount</b>
+                    <h1 style="font-size:55px;margin-top:10px;margin-bottom: 10px">43%</h1>
+                    <div id="ticket-save-value">
+                        <div style="display:flex;flex-direction: column;padding:15px">
+                            <b style="color: #9e9e9e;">Deal Value</b>
+                            <b class="centerText">$47</b>
+                        </div>
+                        <div style="display:flex;flex-direction: column;padding:15px">
+                            <b style="color: #9e9e9e;">You Save</b>
+                            <b class="centerText">$20</b>
+                        </div>
+                    </div>
+
+                    <div style="display: flex;justify-content: center;padding:10px;margin-top:10px">
+                        <img style="margin-left:10px;margin-top:3px" src="./images/tweet.png" width="50%" height="50%" />
+                        <img src="./images/like.jpg" width="40%" height="40%" />
+                    </div>
+                </div>
                 <button id="buy-big-deal">
                     Buy this deal -27$
                 </button>
@@ -157,11 +178,11 @@
         </div>
 
         <div id="introduce-section" style="margin-bottom: 20px;">
-            <div id="about-our-deals" style="border-right: 1px dashed #919191;width:33%">
+            <div id="about-our-deals">
                 <h3>
                     About Our Deals
                 </h3>
-                <b style="font-size:13px;color: #9e9e9e;">
+                <b>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                     eiusmod tempor incididunt ut
                     labore
@@ -169,7 +190,7 @@
                 </b>
                 <br />
                 <br />
-                <b style="font-size:13px;color: #9e9e9e;">
+                <b>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                     eiusmod tempor incididunt ut
                     labore
@@ -197,10 +218,10 @@
 
             <div id="other-pages">
                 <h3>Other Pages</h3>
-                <b class="page">Home</b>
-                <b class="page">About Our Deals</b>
-                <b class="page">All Deals</b>
-                <b style="font-size:13px;color: #9e9e9e">Contact</b>
+                <b>Home</b>
+                <b>About Our Deals</b>
+                <b>All Deals</b>
+                <b>Contact</b>
             </div>
         </div>
     </div>
